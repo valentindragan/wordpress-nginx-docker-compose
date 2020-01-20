@@ -95,7 +95,7 @@ Replace `myapp.local` in `nginx/wordpress_ssl.conf` with your own local domain o
 ## Install WordPress and Composer dependencies
 
 ```shell
-docker-compose run composer intall
+docker-compose run composer install
 ```
 > If you have Composer installed on your Mac you can also use `cd src && composer install`
 
